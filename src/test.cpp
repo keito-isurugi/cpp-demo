@@ -1,9 +1,9 @@
 #include <iostream>
+#include <vector>
+#include <string>
 
 using namespace std;
 
-int main()
-{
-    cout << "これはテストです。" << endl;
-    return 0;
+int main() {
+  cout << "abisalskdjf" << endl;
 }

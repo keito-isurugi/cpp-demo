@@ -1,4 +1,4 @@
 # echo "hogehoge"
 cd ./src
-g++ test.cpp -o test
+g++ test.cpp -o ./build/test
 ./test
