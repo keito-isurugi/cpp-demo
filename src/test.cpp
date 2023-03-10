@@ -5,48 +5,20 @@
 using namespace std;
 
 int main() {
-  // string str1, str2;
-  // cin >> str1;
-  // str2 = ", world!";
-  // cout << str1 << str2 << endl; 
-
-  // string str = "Hello";
-  // cout << str.size() << endl;
-  // cout << str.at(0) << endl; // h
-  // cout << str.at(4) << endl; // o
-
-  // char c = 'a';
-  // cout << c << endl; // a
-
-  // string str;
-  // cin >> str;
+  // 文字列
+  // string str; // 文字列変数を宣言
  
-  // int count = 0;
-  // for (int i = 0; i < str.size(); i++) {
-  //   if (str.at(i) == 'O') {
-  //     count++;
-  //   }
-  // }
+  // str = "abcd"; // 'a', 'b', 'c', 'd' という文字(char)の列を代入
  
-  // cout << count << endl;
-
-  // string s, t;
-  // getline(cin, s); // 変数sで入力を一行受け取る
-  // getline(cin, t); // 変数tで入力を一行受け取る
+  // cout << str.at(0) << endl; // 1つ目である'a'を出力
  
-  // cout << "一行目 " << s << endl;
-  // cout << "二行目 " << t << endl;
-
-  string S;
-  cin >> S;
-
-  int count = 1;
-  for (int i = 0; i < S.size(); i++) {
-    if(S.at(i) == '+') {
-      count++;
-    } else if(S.at(i) == '-') {
-      count--;
-    }
-  }
-  cout << count << endl;
+  // cout << str.size() << endl; // 文字列の長さである4を出力
+ 
+  // 配列
+   vector<int> vec; // int型の配列変数vecを宣言
+  vec = { 25, 100, 64 };
+ 
+  cout << vec[0] << endl; // 1つめである25を出力
+ 
+  cout << vec.size() << endl; // 配列の長さである3を出力
 }

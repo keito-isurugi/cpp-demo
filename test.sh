@@ -1,3 +1,1 @@
-cd ./src
-g++ test.cpp -o ./build/test
-./build/test
+docker exec -it -w /cppdev cppdev /bin/bash ./docker_test.sh
