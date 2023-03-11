@@ -3,6 +3,7 @@
 		"*.jsx": "javascriptreact",
 		"iostream": "cpp",
 		"iosfwd": "cpp",
-		"vector": "cpp"
+		"vector": "cpp",
+		"ostream": "cpp"
 	}
 }
